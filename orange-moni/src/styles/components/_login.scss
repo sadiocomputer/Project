@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.login-form {
+
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    // background:  linear-gradient(to right bottom, 
+    // rgba(102, 104, 105, 0.973),
+    // rgba(10, 10, 10, 0.719)),
+    // url('../../../public/img/bg-login.jpg');
+    // background-size: cover;
+    // background-position: top;
+     
+    background:  #000000fd;
+    // background: linear-gradient(261deg,#dfdfdf 0%, #bebebe 80%);
+    // background: -webkit-linear-gradient(261deg,#dfdfdf 0%, #bebebe 80%);
+    // background: -moz-linear-gradient(261deg,#dfdfdf 0%, #bebebe 80%);
+
+
+
+
+  .alertToken {
+      background: rgb(26, 25, 25);
+      height: 100vh;
+      width: 100%;
+      z-index: 22232344555;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      user-select: none;
+
+      .box {
+          width: 400px;
+          padding: 20px;
+          background-color: aliceblue;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
+          p {
+              text-align: center;
+              padding-bottom: 15px;
+              border-bottom: .5px solid rgba(0, 0, 0, 0.441) ;
+          }
+
+          .btn {
+              box-shadow: none;
+              -webkit-box-shadow: none;
+              font-weight: bold;
+              margin-top: 10px;
+          }
+
+          h4 {
+              text-align: center;
+              color: red;
+              padding-bottom: 10px;
+              
+          }
+      }
+  }
+
+
+    .loadingConnect {
+        height: 100vh;
+        width: 100%;
+        background-color:rgba(44, 43, 43, 0.582);
+        z-index:999;
+        position: relative;
+        user-select: none;
+
+        span {
+            position: absolute;
+            top: 54%;
+            left: 50%;
+            transform: translate(-50%);
+
+            color: rgb(245, 230, 230);
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+
+    .row {
+
+
+        .box {
+
+            background: rgba(255, 255, 255, 0.644);
+            position: absolute;
+            width: 40%;
+            top:50%;
+            left: 53%;
+            transform: translate(-50%, -50%);
+            // border: 1px solid slateblue;
+            // color: rgb(68, 66, 66);
+            // border-radius: 0px;
+            // padding: 10px 10px;
+            box-shadow: 4px 0px 12px 3px rgba(255, 255, 255, 0.56);
+            -webkit-box-shadow: 4px 0px 12px 3px rgba(94,73,73,0.56);
+            -moz-box-shadow: 4px 0px 12px 3px rgba(94,73,73,0.56);
+
+            h3 {
+              color: #d94d26e5;
+            }
+
+            .alert {
+              text-align: center;
+              margin-left: 40px;
+            }
+
+
+        }
+
+
+       
+        h1 {
+            letter-spacing: 3px;
+            font-family: 'Acme', sans-serif;
+            text-transform: uppercase;
+            color: #d94d26e5;
+        }
+
+
+
+        form {
+            
+            .form-control {
+                box-shadow: none;
+                -webkit-box-shadow:none;
+            }
+
+
+
+            input[type="submit"] {
+                border: none;
+                outline: none;
+                padding: 8px 0px;
+                border-radius: 5px;
+                background: #d94d26e5;
+                color: white;
+                font-weight: bold;
+                letter-spacing: 1px;
+                transition: .4s;
+
+                &:hover {
+                    background: #000000e5;
+                    box-shadow: 2px 3px 4px 1px black;
+                }
+                
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+    .lds-spinner {
+        background: rgba(132, 129, 129, 0.45);
+        color: blue;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+        width: 100%;
+        height: 100vh;
+      }
+      .lds-spinner div {
+        transform-origin: 40px 40px;
+        animation: lds-spinner 1.2s linear infinite;
+      }
+      .lds-spinner div:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 3px;
+        left: 37px;
+        width: 6px;
+        height: 18px;
+        border-radius: 20%;
+        background: #fff;
+      }
+      .lds-spinner div:nth-child(1) {
+        transform: rotate(0deg);
+        animation-delay: -1.1s;
+      }
+      .lds-spinner div:nth-child(2) {
+        transform: rotate(30deg);
+        animation-delay: -1s;
+      }
+      .lds-spinner div:nth-child(3) {
+        transform: rotate(60deg);
+        animation-delay: -0.9s;
+      }
+      .lds-spinner div:nth-child(4) {
+        transform: rotate(90deg);
+        animation-delay: -0.8s;
+      }
+      .lds-spinner div:nth-child(5) {
+        transform: rotate(120deg);
+        animation-delay: -0.7s;
+      }
+      .lds-spinner div:nth-child(6) {
+        transform: rotate(150deg);
+        animation-delay: -0.6s;
+      }
+      .lds-spinner div:nth-child(7) {
+        transform: rotate(180deg);
+        animation-delay: -0.5s;
+      }
+      .lds-spinner div:nth-child(8) {
+        transform: rotate(210deg);
+        animation-delay: -0.4s;
+      }
+      .lds-spinner div:nth-child(9) {
+        transform: rotate(240deg);
+        animation-delay: -0.3s;
+      }
+      .lds-spinner div:nth-child(10) {
+        transform: rotate(270deg);
+        animation-delay: -0.2s;
+      }
+      .lds-spinner div:nth-child(11) {
+        transform: rotate(300deg);
+        animation-delay: -0.1s;
+      }
+      .lds-spinner div:nth-child(12) {
+        transform: rotate(330deg);
+        animation-delay: 0s;
+      }
+      @keyframes lds-spinner {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      
+
+      .spinner-border{
+
+        margin-bottom: -610px;
+     }
+    
+
+
+}
+
+
+// Responsive 
+
+@media screen and (max-width:414px) {
+
+    .login-form {
+        .row {
+            .box {
+                position: absolute;
+                width: 90%;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                .alert {
+                    width: 100%;
+                    font-size: 10px;
+                    margin-left: 0px;
+                }
+            }
+        }
+    } 
+
+}
+
+
+@media screen and (max-width:768px) {
+
+  .login-form {
+    .row {
+      .box {
+        h3 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+
+}

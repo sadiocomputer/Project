@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../assets/fonts/JosefinSans-ExtraLight.ttf);
+  }
+  @font-face {
+    font-family: "font-2";
+    src: url(../assets/fonts/JosefinSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: "font-3";
+    src: url(../assets/fonts/JosefinSans-Bold.ttf);
+  }
+  
+  $font-1: "font-1", sans-serif;
+  $font-2: "font-2", serif;
+  $font-3: "font-3", serif;
+
+  body {
+    font-family: $font-2;
+    line-height: 1.4rem;
+    background: red;
+
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+//Personnaliser les scrollBars
+
+// ::-webkit-scrollbar{
+//     width: 10px;
+//     height: 5px;
+// }
+
+// ::-webkit-scrollbar-button {
+//     width: 4px;
+//     height: 4px;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//     background: #000000;
+//     border: 31px none #af4444;
+//     border-radius: 5px;
+// }
+
+// ::-webkit-scrollbar-track:active {
+//     background: #f5f5f5;
+// }
+// ::-webkit-scrollbar-corner {
+//     background: red;
+// }

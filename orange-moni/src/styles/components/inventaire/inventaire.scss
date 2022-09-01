@@ -1,0 +1,78 @@
+.inventairesClient {
+
+    .HeadInventaire {
+        border-bottom: 1px solid #d62f20c5;
+    }
+
+    .btnSearch {
+        outline: none;
+        padding: 8px 10px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #d84819;
+        color: white;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        
+        &:focus {
+            box-shadow: none;
+            -webkit-box-shadow: none;
+
+        }
+
+        &:hover {
+            background: #d62f20c5;
+            color: white;
+            transition: .2s ease-in;
+            box-shadow: 2px 3px 4px 1px black;
+        }
+    }
+
+    .form-control {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border-radius: 0px;
+        
+        &:focus {
+            box-shadow: none;
+            -webkit-box-shadow: none;
+
+        }
+    }
+
+    table {
+        font-size: 13px;
+        thead {
+            tr {
+                .titleT {
+
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .textE {
+            h6{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:414px) {
+
+    .inventairesClient {
+
+        margin-top: 13vh;
+
+        .btnSearch {
+            margin-top: 10px;
+        }
+
+        .txtDate {
+            text-align: center;
+        }
+    }
+
+}

@@ -1,0 +1,40 @@
+/*
+* Fichier maitre : index.scss
+*/
+
+@import url("./components/_settings.scss");
+
+@import url("./components/_home.scss");
+@import url("./components/_login.scss");
+
+@import url("./components/_listClient.scss");
+
+
+@import url("./components/FournisseursClient/_fournisseur.scss");
+@import url("./components/FournisseursClient/_listfournisseur.scss");
+
+@import url("./components/FournisseursClient/_client.scss");
+@import url("./components/FournisseursClient/_actionClient.scss");
+@import url("./components/navigation/_header.scss");
+@import url("./components/parametres/_paramettre.scss");
+@import url("./components/homeContent/_rowOne.scss");
+@import url("./components/homeContent/_rowTwo.scss");
+
+@import url("./components/Users/_users.scss");
+@import url("./components/Users/_addUser.scss");
+
+
+@import url("./components/Menu/_slide.scss");
+
+@import url("./components/clients/clients.scss");
+@import url("./components/versements/versement.scss");
+
+
+@import url("./components/Transactions/transaction.scss");
+@import url("./components/inventaire/inventaire.scss");
+
+
+
+@import url("./LocalFontAwesome/css/all.css");
+
+@import url("./components/Pages/_notFound.scss");

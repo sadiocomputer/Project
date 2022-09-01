@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+$colorHover : rgb(51, 49, 49) ;
+$fonttitre : 'Acme', sans-serif;
+
+
+.home {
+    overflow-x: hidden;
+    border: 1px solid red;
+
+    
+    
+    h1  {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-left: 20px;
+        
+    }
+
+    .positionHome {
+        
+
+        .centerHome {
+            margin-top: 40px;
+            padding: 40px 40px;
+            width: calc(100% - 220px);
+            position: absolute;
+            right: 0px;
+
+   
+    
+            h3 {
+                font-size: 20px;
+                color: rgb(108, 105, 105);
+                font-weight: 200;
+                // font-family: Arial, Helvetica, sans-serif;
+                i{margin-right: 10px; margin-left: 10px;}
+                border-bottom: 1px solid #df4b0ca2;
+            }
+    
+            .contentOne {
+
+                margin-top: 20px;
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: space-around;
+    
+
+                div {
+                    // border-radius: 5px;
+                    // width: 32%;
+                    padding: 40px 0px 30px 30px;
+                    position: relative;
+                    transition: all .4s ease;
+    
+                    a{
+                        text-decoration: none;
+                        color: rgb(255, 254, 254);
+                        // font-family: Arial, Helvetica, sans-serif;
+                        h5{font-weight: 500;}
+                    }
+                }
+    
+                .box1 {
+                    // background: rgba(166, 40, 18, 0.916);
+                    background:  linear-gradient(to right bottom, 
+                    rgba(166, 40, 18, 0.916),
+                    rgba(10, 10, 10, 0.719)),
+                    url('../../../public/img/founisseur.png');
+                    background-size: cover;
+                    background-position: top;
+                }
+                .box2 {
+                    // background: rgb(97, 127, 209);
+                    background:  linear-gradient(to right bottom, 
+                    rgb(97, 127, 209),
+                    rgba(10, 10, 10, 0.719)),
+                    url('../../../public/img/money.jpg');
+                    background-size: cover;
+                    background-position: top;
+                }
+                .box3 {
+                    // background: rgb(15, 116, 199);
+                    background:  linear-gradient(to right bottom, 
+                    rgb(15, 116, 199),
+                    rgba(10, 10, 10, 0.719)),
+                    url('../../../public/img/produit.jpg');
+                    background-size: cover;
+                    background-position: top;
+                }
+    
+            }
+            .contentTwo {
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: space-around;
+    
+                div {
+                    // border-radius: 5px;
+                    // width: 32%;
+                    padding: 40px 10px 30px 30px;
+                    position: relative;
+                    transition: all .4s ease;
+    
+                    a{
+                        text-decoration: none;
+                        color: rgb(255, 254, 254);
+                        // font-family: Arial, Helvetica, sans-serif;
+                    }
+                }
+    
+                .box21 {
+                    // background: rgba(137, 26, 137, 0.603);
+                    background:  linear-gradient(to right bottom, 
+                    rgba(182, 23, 182, 0.733),
+                    rgba(31, 30, 30, 0.986)),
+                    url('../../../public/img/facture.jpg');
+                    background-size: cover;
+                    background-position: top;
+                }
+                .box22 {
+                    // background: rgb(232, 158, 68);
+                    background:  linear-gradient(to right bottom, 
+                    rgb(232, 158, 68),
+                    rgba(10, 10, 10, 0.719)),
+                    url('../../../public/img/client.jpg');
+                    background-size: cover;
+                    background-position: top;
+                }
+                .box23 {
+                    // background: rgb(35, 155, 153);
+                    background:  linear-gradient(to right bottom, 
+                    rgb(35, 155, 153),
+                    rgba(10, 10, 10, 0.719)),
+                    url('../../../public/img/images.jpg');
+                    background-size: cover;
+                    background-position: top;
+                }
+            }
+            
+    
+        }
+    
+    }
+
+
+}
+
+
+
+// Responsivité 
+
+@media screen and (max-width:414px) {
+    
+    .positionHome {
+        margin-top: 8vh;
+        .centerHome {
+            
+            .col-md-4 {
+                margin: 3px 0px 0px 0px ;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .home {
+
+        .positionHome {
+
+            .centerHome {
+                margin-top: 15vh;
+                padding: 40px 40px;
+                width: 100%;
+                position: absolute;
+                right: 0px;
+
+            }
+        }
+    }
+
+
+}
+
+
+

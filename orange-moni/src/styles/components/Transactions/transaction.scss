@@ -1,0 +1,157 @@
+.transaction {
+
+    .titleContent{
+        font-size: 20px;
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 1px solid #ea0808;
+    }                   
+
+    .col-md-10 {
+        padding: 20px 60px;
+        width: calc(100% - 220px);
+        position: absolute;
+        right: 0px;
+
+        .fileInput {
+
+
+            .custom-file-input::-webkit-file-upload-button {
+                background-color: #d64417;
+                color: aliceblue;
+                &:hover{
+                    background-color: #d6431794;
+                    
+                }
+            }
+
+            .custom-file-input:hover::before {
+                border-color: rgb(226, 31, 31);
+              }
+              .custom-file-input:active::before {
+                background: -webkit-linear-gradient(top, #af3030, #1d0404);
+              }
+
+
+            .form-control {
+                border-radius: 0px;
+            }
+            .form-control:focus, 
+            .btn:focus {
+                box-shadow: none;
+            }
+        }
+
+        table {
+            font-size: 13px;
+            text-align: center;
+
+    
+            th {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.135);
+            }
+        
+        }
+
+
+        .contentTransaction {
+            form {
+                .form-control {
+                    padding: 8px 10px;
+                    outline: none;
+                    font-size: 12px;
+                    box-shadow: none;
+                    -webkit-box-shadow: none;
+                    border-radius: 0px;
+                    transition: ease-in-out, width .35s ease-in-out;
+                }
+            }
+        }
+
+        .btn {
+            border-radius: 0px;
+        }
+
+        .btnAjout {
+            outline: none;
+            padding: 8px 10px;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #db3f14;
+            color: white;
+            
+            // &:hover {
+            //     background: #111111c5;
+            //     color: white;
+            //     transition: .2s ease-in;
+            //     box-shadow: 2px 3px 4px 1px black;
+            // }
+        }
+    }
+
+    .footTable {
+        font-size: 12px;
+        padding: 9px 0px 0px 0px;
+        // background: #e19d9d5f;
+
+        .pagination {
+            display: flex;
+            justify-content: flex-start;
+            list-style: none;
+            cursor: pointer;
+        }
+
+        .pagination a {
+            padding: 5px;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .pagination__link {
+            font-weight: 200;
+            // border: 1px solid rgb(0, 0, 0);
+            // border-radius: 5px;
+            // background: #000000;
+            margin: 0px 10px;
+            padding: 0px 10px;
+            user-select: none;
+            color: #000000;
+        }
+        .pagination__link--active a {
+            color: rgb(188, 28, 28);
+            font-weight: bold;
+            // border-radius: 60px;
+        }
+        .pagination__link--disabled a {
+            color: rgb(77, 79, 78);
+        }
+
+
+        .form-select, 
+        .form-select:focus {
+            margin-left: 9px;
+            padding: 0px 5px;
+            width: 50px;
+            border: none;
+            box-shadow: none;
+            --webkit-box-shadow:none;
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .transaction {
+
+        .col-md-10 {
+            margin-top: 13vh;
+            width: 100%;
+        }
+
+    }
+ 
+
+}

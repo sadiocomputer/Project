@@ -1,0 +1,168 @@
+.clients {
+
+
+    .col-md-10 {
+        padding: 40px 60px;
+        width: calc(100% - 220px);
+        position: absolute;
+        right: 0px;
+        
+    }
+
+    .ajoutclient {
+        margin-top: 40px;
+        
+        // Loading 
+
+
+    }
+
+
+
+    .titleSettings{
+        font-size: 20px;
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 1px solid #df4b0ca2;
+    }
+
+
+    .rowform {
+        margin-bottom: 10px;
+    }
+
+
+    .addUserContent {
+        margin-top: 20px;
+        padding: 10px 0px 30px 0px;
+        background: rgb(255, 255, 255);
+        position: relative;
+        overflow:  visible;
+    }
+
+
+    .form-label {
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    .form-control,
+    .form-select {
+        padding: 5px 25px;
+        outline: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border-radius: 0px;
+        border: 1px solid #2135419a;
+
+    }
+
+
+    .form-control::-webkit-input-placeholder {
+        color: rgba(82, 82, 84, 0.4);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+
+
+    .form-control:focus {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border: 1px solid #213541;
+    }
+
+    .form-select:focus {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border: 1px solid #213541;
+    }
+
+    form {
+        margin-top: 10px;
+      
+    }
+
+
+    //Les bouutons
+
+
+    .btnConfirm {
+
+        
+        padding-bottom: 20px;
+
+        .btn {
+            margin-left: 3px ;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            border-radius: 0px;
+            padding: 5px 20px;
+            margin-right: 5px;
+            outline: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+        }
+        .btn:focus {
+            box-shadow: none;
+            -webkit-box-shadow: none;
+        }
+    
+        .btnRegister {
+            // border: 1px solid black;
+            background: rgba(0, 0, 0, 0.84);
+            color: rgb(253, 253, 253);
+
+            // &:hover {
+            //     background: rgb(53, 52, 52);
+            //     color: white;
+            //     box-shadow: 2px 3px 4px 1px black;
+            // }
+        }
+    
+        .btnAnnuler {
+            // border: 1px solid rgba(255, 42, 42, 0.651);
+            background: rgba(228, 55, 12, 0.952);
+            color: rgb(255, 255, 255);
+            // &:hover {
+            //     background: rgba(255, 42, 42, 0.651);
+            //     color: white;
+            //     box-shadow: 2px 3px 4px 1px rgb(215, 40, 40);
+            // }
+        }
+
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .clients {
+
+        .col-md-10 {
+            width: 100%;
+        }
+
+        .ajoutclient {
+            margin-top: 15vh;
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width:414px) {
+    .clients {
+
+    }
+
+}
+

@@ -1,0 +1,81 @@
+.settings {
+
+
+    .col-md-10 {
+        padding: 20px 60px;
+        width: calc(100% - 220px);
+        position: absolute;
+        right: 0px;
+
+        .contentSetting {
+            margin-top: 50px;
+            
+            .titleContent{
+                font-size: 20px;
+                font-weight: 200;
+                color: rgb(0, 0, 0);
+                font-family: Arial, Helvetica, sans-serif;
+                border-bottom: 1px solid #df4b0ca2;
+
+            }
+
+
+            ul {
+                list-style: none;
+                .nav-text {
+                    position:relative;
+                    display:table-cell;
+                    vertical-align:auto;
+                    padding: 8px;
+                    margin-left: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 200;
+                }
+
+                a {
+                    cursor: pointer;
+                    position:relative;
+                    /* display:table; */
+                    border-collapse:collapse;
+                    border-spacing:0;
+                    color:rgb(0, 0, 0);
+                    font-family: arial;
+                    font-size: 13px;
+                    text-decoration:none;
+                   
+                    &:hover {
+                        color: #bf3f0d;
+                    }
+        
+                }
+            }
+
+
+            thead{
+                th {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+// RESPONSIVE 
+@media screen and (max-width:768px) {
+
+    .settings {
+        
+        .col-md-10 {
+            margin-top: 13vh;
+            width: 100%;
+        }
+    }
+
+
+}

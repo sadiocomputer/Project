@@ -1,0 +1,16 @@
+.btnAction {
+    button {
+        border: none;
+        outline: none;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    i {cursor: pointer;}
+    
+    .del{
+        color: red;
+        :hover {color: rgb(245, 112, 112);}
+    }
+}

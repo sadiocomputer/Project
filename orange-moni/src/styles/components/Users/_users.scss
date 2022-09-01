@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+// Variables
+
+$colorHover : rgb(51, 49, 49) ;
+$fonttitre : 'Acme', sans-serif;
+$colorPrincipale : rgb(70, 70, 122);
+
+.listUser {
+    
+    background-color: rgba(240, 237, 237, 0.753);
+    padding: 15px;
+    width: 100%;
+    border-radius: 0px;
+    position: relative;
+
+    .headUser {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #212121;
+        color: white;
+        padding: 0px 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{font-size: 14px; margin-top: 10px; font-weight: 200;}
+        a{font-size: 14px; font-weight: 200;}
+    }
+
+    table {
+        font-size: 13px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+        th {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border: 1px solid rgba(45, 44, 45, 0.135);
+        }
+    
+    }
+
+
+
+    .addClient{
+        padding: 40px 0px 10px 0px;
+        font-size: 13px;
+        
+        .btnaddClient {
+            padding: 9px 13px;
+            outline: none;
+            border: 1px solid  rgba(0, 0, 0, 0);
+            background: rgb(70, 70, 122);
+            color: rgb(255, 255, 255);
+            font-size: 13px;
+            transition: all .3s ease;
+            text-decoration: none;
+
+            &:hover{
+                background: rgb(0, 0, 0);
+                color: white;
+            }
+
+        }
+
+
+        .btnRec {
+
+            .btnE {
+                outline: none;
+                border: none;
+                margin: 5px;
+                border: 1px solid rgba(131, 130, 130, 0.308);
+                padding: 3px 13px;
+                font-weight: 400;
+                text-align: center;
+                background: rgba(230, 230, 230, 0.918);
+                color: rgb(0, 0, 0);
+                
+            }
+            
+
+        }
+
+
+
+
+
+        .btn-close {
+            border-radius: 0px;
+            border: 1px solid rgba(252, 251, 251, 0.863);
+            box-shadow: none;
+            -webkit-box-shadow: none;
+        }
+
+        .modal-header {
+            background: rgb(70, 70, 122);
+            border-radius: 0px;
+            color: white;
+            padding: 15px;
+            
+            .modal-title {
+                font-family: Arial, Helvetica, sans-serif;
+                letter-spacing: 1px;
+            }
+        }
+
+        form {
+
+            label {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-style: 20px;
+             
+            }
+          
+            .form-control,
+            .form-select {
+                padding: 3px 8px;
+                outline: none;
+                box-shadow: none;
+                -webkit-box-shadow: none;
+                // border: 1px solid  rgba(41, 40, 40, 0.281);
+                border-radius: 0px;
+
+            }
+
+
+        }
+    }
+
+    //Buttons Actions => Table
+
+    .btnAction{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        i {
+            
+            margin: 0;
+            padding: 4px;
+            border-radius: 50%;
+        }
+
+            .edit {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                transition: all .3s ease;
+                background: $colorPrincipale;
+
+            }
+
+            .del {
+                text-decoration: none;
+                color: rgb(248, 246, 246);
+                background-color: rgba(255, 0, 0, 0.603);
+                transition: all .3s ease;
+
+            }
+    }
+}

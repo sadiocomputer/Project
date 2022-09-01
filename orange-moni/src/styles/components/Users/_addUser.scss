@@ -1,0 +1,164 @@
+.ajouterUser {
+
+    .col-md-10 {
+        padding: 40px 60px;
+        width: calc(100% - 220px);
+        position: absolute;
+        right: 0px;
+    }
+
+    .titleSettings{
+        font-size: 20px;
+        font-weight: 200;
+        color: rgb(108, 105, 105);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .alert {
+        border: none;
+        border-radius: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .alertToken {
+        background: rgb(114, 113, 113);
+        height: 100vh;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .box {
+            background: white;
+            color: black;
+        }
+    }
+
+    .rowform {
+        // border: 2px solid  red;
+        padding: 0px 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .headUser {
+        background: #000000;
+        color: white;
+        padding: 0px 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -10px;
+        p{font-size: 13px; margin-top: 10px; font-weight: 100;}
+        
+    }
+
+    .addUserContent {
+        // border: .5px solid  #213541;
+        padding: 10px 0px 30px 0px;
+        background: rgb(255, 255, 255);
+        position: relative;
+        // height: 80vh;
+        overflow:  visible;
+         
+
+
+
+    }
+
+
+    .form-label {
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    .form-control,
+    .form-select {
+        padding: 5px 25px;
+        outline: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border-radius: 0px;
+        border: 1px solid #2135419a;
+
+    }
+
+
+    .form-control::-webkit-input-placeholder {
+        color: rgba(82, 82, 84, 0.4);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+
+
+    .form-control:focus {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border: 1px solid #213541;
+    }
+
+    .form-select:focus {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border: 1px solid #213541;
+    }
+
+    form {
+        margin-top: 10px;
+        
+    }
+
+
+    //Les bouutons
+
+
+    .btnConfirm {
+
+        display: flex;
+        justify-content: flex-end;
+        
+
+        .btn {
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            border-radius: 0px;
+            padding: 5px 20px;
+            margin: 0px 35px;
+            outline: none;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+        }
+        .btn:focus {
+            box-shadow: none;
+            -webkit-box-shadow: none;
+        }
+    
+        .btnRegister {
+            border: 1px solid black;
+            background: rgba(255, 255, 255, 0.918);
+            color: rgb(8, 8, 8);
+
+            &:hover {
+                background: black;
+                color: white;
+            }
+        }
+    
+        .btnAnnuler {
+            border: 1px solid rgba(255, 42, 42, 0.651);
+            background: rgba(255, 255, 255, 0.842);
+            color: rgb(0, 0, 0);
+            &:hover {
+                background: rgba(255, 42, 42, 0.651);
+                color: white;
+            }
+        }
+
+    }
+
+
+
+
+}
